@@ -84,7 +84,7 @@ function App() {
               <p>Update Frequency: Normal</p>
             </div>
             <div className="roght">
-              <button className="button">Click to Update</button>
+              <button className="button"><a href="/update.jsx" >Click to Update</a></button>
             </div>
           </div>
       </body>
