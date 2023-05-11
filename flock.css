@@ -1,0 +1,495 @@
+	* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: #EEF3F1;
+  
+}
+
+.heading{
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.045rem;
+  color: #000000;
+  opacity: 1;
+  margin : 0.9rem 0 ;
+  margin-left: 4.3rem;
+
+  
+}
+
+.box-container {
+  height: 13.06rem;
+  width: 55.18rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 4.3rem;
+  margin-right: 10rem;
+  /* position: relative; */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0.43rem 1.18rem;
+  height:12.5rem;
+  width: 12.5rem;
+  margin: 0.5rem;
+  margin-bottom: 0rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 3px #00000029;
+  opacity: 1;
+  float: left;
+  
+}
+
+
+.box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.title{
+  
+text-align: center;
+font: normal normal normal 19px/15px Century Gothic;
+letter-spacing: 0.03rem;
+color: #000000;
+opacity: 1;
+}
+
+.box .figure {
+font-size: 4rem;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 0;
+color: #0F0F0F;
+opacity: 1;
+}
+
+.box ul {
+  list-style: none;
+  margin-bottom: 0.6rem;
+  justify-content: baseline;
+  display: flex;
+  flex-direction: column;
+}
+
+.box ul li {
+  font-size: 0.87rem;
+  display: flex;
+  align-items: left;
+  margin-bottom: 0.3rem;
+  text-align: left;
+  font: normal normal normal 14px/20px Source Sans Pro;
+  letter-spacing: 0rem;
+  color: #4D4F5C;
+  opacity: 1;
+ 
+}
+
+.box ul li span {
+  display:inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.3rem;
+  border-radius: 50%;
+  align-items: left;
+  font-size: 0.8rem;
+  
+}
+
+.box ul li p {
+  text-indent: 3em;
+   
+}
+
+.healthy {
+  background: #21CE99 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.unhealthy {
+  background-color: #F4AA3C;
+}
+
+
+.poll-bar {
+  height: 0.3rem;
+  width: 100%;
+  margin-bottom: 0.72rem;
+  border-radius: 0.3rem;
+  
+}
+
+/*.poll-bar-fill-left {
+  background-color: #21CE99;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.poll-bar-fill-right {
+  background-color: #F4AA3C; 
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+*/
+.poll-bar-fill {
+  height: 5px;
+  background-color: #4CAF50;
+  border-radius: 1.56rem;
+}
+
+.last-updated {
+  font-size: 0.6rem;
+  font-style: normal;
+  color: #777;
+  text-align: center;
+  
+}
+
+
+.color-box {
+  display: flex;
+  flex-direction: column;
+  height: 12.5rem;
+  width: 18.75rem;
+}
+
+
+
+
+.tip-box {
+  display: flex;
+  flex-direction:column;
+  border-spacing: 0;
+  margin: 0 1.25rem;
+  border-radius: 0.93rem;
+  height: 12.5rem;
+  padding: 0;
+  width: 16rem;
+  margin-top: 0.55rem;
+}
+
+
+.title-tip {
+  width: 16rem;
+  height: calc(50% - 30px);
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  background-color:#21CE99;
+  flex-grow:1;
+  display:flex;
+  border-top-left-radius: 0.93rem;
+  border-top-right-radius: 0.93rem;
+  text-align: center;
+  justify-content: center;
+  padding: 1.87rem 0;
+}
+.tip-text {
+  
+  width: 16rem;
+  height: calc(50% + 50px);
+  background-color:#2d745e;
+  flex-grow: 1;
+  display: flex;
+  border-bottom-left-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
+  text-align: center;
+  justify-content: center;
+}
+.title-tip p{
+  font-size: 1.18rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04rem;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.tip-text p{
+  font-size: 1.18rem;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 0.03rem;
+  color: #FFFFFF;
+  opacity: 1;
+  margin: 0.2rem 1.3rem 2.5rem 0.9rem;
+  line-height: 1.4rem;
+}
+
+
+
+.box2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45rem;
+  height: 10.5rem;
+  margin: 1.875rem 0;
+  margin-left: 4.3rem ;
+  padding: 1.2rem;
+  background-color: #ffffff;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 0.25rem 0.18rem #00000029;
+  opacity: 1;
+}
+
+.box2 .left figure{
+  text-align: left;
+  font-size: 3.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0rem;
+  color: #0F0F0F;
+}
+.box2 .right figure{
+  text-align: left;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0rem;
+  color: #0F0F0F;
+}
+
+.box2 .left p,
+.box2 .right p{
+  text-align: right;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0rem;
+  color: #0F0F0F;
+}
+.left,
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:first baseline;
+  width: 48%;
+  height: 100%;
+  padding: 1.2rem;
+}
+
+.left {
+  background-color: #ffffff;
+  color: #000000;
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+}
+
+.right {
+  background-color: #ffffff;
+  color: #000000;
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+}
+
+.divider {
+  width: 0.3rem;
+  height: 8rem;
+  background-color: #008000;
+  border-radius: 0.6rem;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.3rem 4.75rem 3.6rem 4.12rem;
+  font-size: 0.6rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0.25rem 0.1rem #00000029;
+  opacity: 1;
+  width: 36rem;
+  height: 10.56rem;
+  margin: 1.8rem;
+  margin-left: 4.37rem;
+
+}
+
+.loft {
+  flex-direction: column;
+  flex: 1;
+  font-weight: bold;
+}
+
+.roght {
+  margin-left: 0.6rem;
+}
+
+.box3 .loft p{
+  font-size: 1.125rem;
+  text-align: left;
+  font: normal normal normal 18px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4D4F5C;
+  opacity: 1;
+}
+.box3 .roght p{
+text-align: center;
+font: normal normal normal 19px/15px Arial;
+letter-spacing: 0.03rem;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.button {
+  width: 10.75rem;
+  height: 2.3rem;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #21CE99 0% 0% no-repeat padding-box;
+  border-radius: 1.93rem;
+  opacity: 1;
+}
+
+
+
+/* Styles for screen sizes up to 500px */
+ @media screen and (max-width: 500px) {
+  .box-container {
+    height: 75rem;
+    width: 20rem;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    margin:2rem;
+    
+    /* position: relative; */
+  }
+  
+  .box {
+    
+    
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    
+    
+  }
+   
+   .box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 8rem;
+    margin: 1rem 2rem ;
+    padding: 0rem;
+    
+   }
+  .box2 .left figure{    
+    font-size: 1.5rem;    
+  }
+
+  .box2 .right figure{  
+    font-size: 1.5rem;  
+  }
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:first baseline;
+    width: 48%;
+    height: 100%;
+    
+  }
+
+  .divider {
+    width: 0.2rem;
+    height: 6rem;
+    }
+    
+  .box2 .left p,
+  .box2 .right p{
+    font-size: 0.8rem;
+    
+  }
+ }
+ 
+
+ /* Styles for screen sizes up to 800px */
+ @media screen and (max-width: 800px) {
+  
+   .box2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 8rem;
+    margin: 1rem 2rem ;
+    padding: 0.8rem;
+    padding-top: 2rem;
+   }
+  .box2 .left figure{    
+    font-size: 2.3rem;    
+  }
+
+  .box2 .right figure{  
+    font-size: 2.3rem;  
+  }
+  .divider {
+    width: 0.2rem;
+    height: 6rem;
+    }
+  .box2 .left p,
+  .box2 .right p{
+    font-size: 1rem;
+    
+  }
+
+  .box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 2rem;
+    width: 80%;
+  }
+  .button{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+ 
+}
+
+
+
+/* Styles for screen sizes up to 1000px */
+@media screen and (max-width: 1000px) {
+   
+.box2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  height: 10.5rem;
+  margin: 1.875rem 3.5rem ;
+  padding: 1rem;
+  
+  }
+  .divider {
+    width: 0.3rem;
+    height: 8rem;
+    background-color: #008000;
+    border-radius: 0.6rem;
+  }
+}
+  
